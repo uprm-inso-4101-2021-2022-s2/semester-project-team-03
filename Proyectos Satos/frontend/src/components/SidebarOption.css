@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     cursor: pointer;
+    padding: 20px;
 }
 
 .sidebarOption:hover{
@@ -10,14 +11,15 @@
     color: var(--sato-color);
     transition: color 100ms ease-out;
 }
-.sidebarOption > MuiSvgIcon-root{
-    padding: 20px;
+.sidebarOption > MuiSvgIcon-root {
+  padding: 20px;
 }
 
 .sidebarOption > h2{
     font-weight: 800;
     font-size: 20px;
     margin-right: 20px;
+
 }
 .sidebarOption--active{
     color:var(--sato-color);
