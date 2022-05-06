@@ -1,9 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
-import UserView from './UserView';
-import HomeView from './HomeView';
-import Sidebar from "./components/Sidebar";
 
+import './App.css';
+import Sidebar from "./components/Sidebar";
+import Feed from "./components/Feed"
 function App() {
   return (
     <div className="app">
@@ -12,8 +10,9 @@ function App() {
         {/*sidebar */}
         <Sidebar/>
          {/*feed */}
-
+        <Feed/>
          {/*widget */}
+        <Widgets/>
 
     </div>
   );

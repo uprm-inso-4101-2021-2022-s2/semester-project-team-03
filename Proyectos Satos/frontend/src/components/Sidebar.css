@@ -1,4 +1,20 @@
 
+.sidebar {
+  border-right: 1px solid var(--sato-background);
+  flex: 0.3;
+  /* min-width: 250px; */
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+.sidebar__satoIcon {
+  color: seagreen;
+  font-size: 30px !important;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  align-items: center;
+}
 
 
 .sidebar__rReport {
@@ -11,3 +27,4 @@
   height: 50px !important;
   margin-top: 20px !important;
 }
+
