@@ -1,0 +1,13 @@
+
+
+
+.sidebar__rReport {
+  background-color: seagreen !important;
+  border: none !important;
+  color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  border-radius: 30px !important;
+  height: 50px !important;
+  margin-top: 20px !important;
+}
